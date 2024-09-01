@@ -12,55 +12,57 @@
 		"dark": "#c74050",
 		"background": {
 			"dark": "#0c0c0c",
-			"light": "#fcfcfc",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
-  },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "Home",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
+			"light": "#fcfcfc"
+		},
+		"anchors": {
+			"from": "#c74050",
+			"to": "#9e333f"
+		}
+	},
+	"modeToggle": {
+		"default": "dark",
+		"isHidden": true
+	},
+	"background": {
+		"style": "grid"
+	},
+	"anchors": [
+		{
+			"name": "Discord Community",
+			"icon": "discord",
+			"url": "https://discord.gg/unbound"
+		},
+		{
+			"name": "GitHub",
+			"icon": "github",
+			"url": "https://github.com/unbound-mod"
+		}
+	],
+	"feedback": {
+		"suggestEdit": true,
+		"raiseIssue": true
+	},
+	"search": {
+		"prompt": "Search documentation..."
+	},
+	"layout": "topnav",
+	"sidebar": {
+		"items": "container"
+	},
+	"api": {
+		"auth": {
+			"method": "bearer"
+		}
+	},
+	"navigation": [
+		{
+			"group": "",
+			"pages": [
+				"overview",
+				"roadmap"
+			]
+		},
+		{
       "group": "Resource Packs",
       "pages": [
         "resourcepacks/freshanimations",
@@ -79,10 +81,10 @@
         "essentials/reusable-snippets"
       ]
     }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  }
+	],
+	"footerSocials": {
+		"x": "https://twitter.com/UnboundClient",
+		"github": "https://github.com/unbound-mod",
+		"discord": "https://discord.gg/unbound"
+	}
 }
