@@ -65,13 +65,14 @@
 		{
       "group": "Resource Packs",
       "pages": [
+        "resourcepacks/defaultdarkmode",
         "resourcepacks/dramaticskys",
         "resourcepacks/enhancedbossbars",
         "resourcepacks/fastbettergrass",
         "resourcepacks/freshanimations",
-		"resourcepacks/fullbright",
-		"resourcepacks/motschenbetterleaves",
-		"resourcepacks/roundtrees"
+		    "resourcepacks/fullbright",
+		    "resourcepacks/motschenbetterleaves",
+		    "resourcepacks/roundtrees"
       ]
     },
     {
