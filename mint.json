@@ -2,10 +2,10 @@
 	"$schema": "https://mintlify.com/schema.json",
 	"name": "Unbound",
 	"logo": {
-		"dark": "/logo/dark.svg",
-		"light": "/logo/light.svg"
+		"dark": "/logo/u-dark.svg",
+		"light": "/logo/u-light.svg"
 	},
-	"favicon": "/logo/dark.svg",
+	"favicon": "/logo/u-dark.svg",
 	"colors": {
 		"primary": "#c74050",
 		"light": "#c74050",
