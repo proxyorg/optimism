@@ -65,7 +65,8 @@
 		{
       "group": "Resource Packs",
       "pages": [
-        "resourcepacks/defaultdarkmode",
+        "resourcepacks/barebones",
+		"resourcepacks/defaultdarkmode",
         "resourcepacks/dramaticskys",
         "resourcepacks/enhancedbossbars",
 		"resourcepacks/evenbetterenchants",
