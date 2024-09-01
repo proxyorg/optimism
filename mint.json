@@ -66,15 +66,16 @@
       "group": "Resource Packs",
       "pages": [
         "resourcepacks/barebones",
-		"resourcepacks/defaultdarkmode",
+		    "resourcepacks/defaultdarkmode",
         "resourcepacks/dramaticskys",
         "resourcepacks/enhancedbossbars",
-		"resourcepacks/evenbetterenchants",
+		    "resourcepacks/evenbetterenchants",
         "resourcepacks/fastbettergrass",
         "resourcepacks/freshanimations",
 		    "resourcepacks/fullbright",
-            "resourcepacks/lowonfire",
+        "resourcepacks/lowonfire",
 		    "resourcepacks/motschenbetterleaves",
+        "resourcepacks/programmerartfix",
 		    "resourcepacks/roundtrees"
       ]
     },
