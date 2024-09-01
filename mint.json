@@ -65,11 +65,11 @@
 		{
       "group": "Resource Packs",
       "pages": [
-        "resourcepacks/freshanimations",
+        "resourcepacks/dramatickys",
+        "resourcepacks/enhancedbossbars",
         "resourcepacks/fastbettergrass",
-        "resourcepacks/dramaticskys",
-        "resourcepacks/motschenbetterleaves",
-		"resourcepacks/enhancedbossbars"
+        "resourcepacks/freshanimations",
+		"resourcepacks/motschenbetterleaves"
       ]
     },
     {
