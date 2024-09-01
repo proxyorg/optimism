@@ -1,15 +1,18 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Kn0xHub",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+	"$schema": "https://mintlify.com/schema.json",
+	"name": "Unbound",
+	"logo": {
+		"dark": "/logo/dark.svg",
+		"light": "/logo/light.svg"
+	},
+	"favicon": "/logo/dark.svg",
+	"colors": {
+		"primary": "#c74050",
+		"light": "#c74050",
+		"dark": "#c74050",
+		"background": {
+			"dark": "#0c0c0c",
+			"light": "#fcfcfc",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
