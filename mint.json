@@ -1,7 +1,6 @@
 {
 	"$schema": "https://mintlify.com/schema.json",
 	"name": "Unbound",
-	"theme": "quill",
 	"logo": {
 		"dark": "/logo/u-dark.svg",
 		"light": "/logo/u-light.svg"
