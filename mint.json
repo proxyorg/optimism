@@ -66,6 +66,7 @@
       "group": "Resource Packs",
       "pages": [
         "resourcepacks/barebones",
+			"resourcepacks/alacrity",
 		    "resourcepacks/defaultdarkmode",
         	"resourcepacks/dramaticskys",
         	"resourcepacks/enhancedbossbars",
