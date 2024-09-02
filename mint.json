@@ -65,7 +65,8 @@
 		{
       "group": "Resource Packs",
       "pages": [
-            "resourcepacks/alacrity",
+            "resourcepacks/3dcropsrevamped",
+			"resourcepacks/alacrity",
 			"resourcepacks/barebones",
 			"resourcepacks/cubicsunandmoon",
 		    "resourcepacks/defaultdarkmode",
