@@ -24,7 +24,7 @@
 		"isHidden": true
 	},
 	"background": {
-		"style": "gradient"
+		"style": "grid"
 	},
 	"anchors": [
 		{
