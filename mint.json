@@ -40,7 +40,8 @@
 	],
 	"feedback": {
 		"suggestEdit": true,
-		"raiseIssue": true
+		"raiseIssue": true,
+		"feedback.thumbsRating": true
 	},
 	"search": {
 		"prompt": "Search documentation..."
