@@ -24,18 +24,13 @@
 		"isHidden": true
 	},
 	"background": {
-		"style": "grid"
+		"style": "gradient"
 	},
 	"anchors": [
 		{
 			"name": "Discord Community",
 			"icon": "discord",
-			"url": "https://discord.gg/unbound"
-		},
-		{
-			"name": "GitHub",
-			"icon": "github",
-			"url": "https://github.com/unbound-mod"
+			"url": "https://discord.gg/fops"
 		}
 	],
 	"feedback": {
@@ -44,7 +39,7 @@
 		"feedback.thumbsRating": true
 	},
 	"search": {
-		"prompt": "Search documentation..."
+		"prompt": "Search"
 	},
 	"layout": "topnav",
 	"sidebar": {
