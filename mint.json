@@ -42,14 +42,14 @@
 		"prompt": "Search"
 	},
 	"tabs": [
-    {
-        "name": "Resource Packs",
-        "url": "resourcepacks"
-    },
-    {
-        "name": "Blog",
-        "url": "https://your-website.com/blog"
-    }
+  {
+    "name": "Resource Packs",
+    "url": "resourcepacks"
+  },
+  {
+    "name": "Blog",
+    "url": "https://your-website.com/blog"
+  }
 ],
 	"primaryTab": {
     "name": "Home"
