@@ -1,6 +1,6 @@
 {
 	"$schema": "https://mintlify.com/schema.json",
-	"name": "Dino",
+	"name": "DinoHub",
 	"logo": {
 		"dark": "/logo/logo.svg",
 		"light": "/logo/u-light.svg"
@@ -105,6 +105,6 @@
 	"footerSocials": {
 		"x": "https://twitter.com/UnboundClient",
 		"github": "https://github.com/unbound-mod",
-		"discord": "https://discord.gg/unbound"
+		"discord": "https://discord.gg/fops"
 	}
 }
