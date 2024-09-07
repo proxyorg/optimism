@@ -100,7 +100,8 @@
 		  {
 			"group": "",
 			"pages": [
-			  "introduction"
+			  "introduction",
+			  "installresourcepacks"
 			]
 		  }
 	],
