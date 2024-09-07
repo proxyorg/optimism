@@ -41,6 +41,16 @@
 	"search": {
 		"prompt": "Search"
 	},
+	"tabs": [
+		{
+			"name": "Mods",
+			"url": "mods"
+		},
+		{
+			"name": "Resource Packs",
+			"url": "resourcepacks"
+		}
+	],
 	"layout": "topnav",
 	"sidebar": {
 		"items": "container"
@@ -58,43 +68,6 @@
 				"roadmap"
 			]
 		},
-		{
-      "group": "Resource Packs",
-      "pages": [
-            "resourcepacks/3dcropsrevamped",
-			"resourcepacks/3ddefault",
-			"resourcepacks/alacrity",
-			"resourcepacks/barebones",
-			"resourcepacks/betterflameparticles",
-			"resourcepacks/bettervanillabuilding",
-			"resourcepacks/ctmoverhaul",
-			"resourcepacks/cubicsunandmoon",
-		    "resourcepacks/defaultdarkmode",
-        	"resourcepacks/dramaticskys",
-			"resourcepacks/enchanticons",
-        	"resourcepacks/enhancedbossbars",
-		    "resourcepacks/evenbetterenchants",
-			"resourcepacks/f8thful",
-			"resourcepacks/faithless",
-			"resourcepacks/fancycrops",
-        	"resourcepacks/fastbettergrass",
-        	"resourcepacks/freshanimations",
-            "resourcepacks/freshmoves",
-		    "resourcepacks/fullbright",
-			"resourcepacks/icons",
-        	"resourcepacks/lowonfire",
-		    "resourcepacks/motschenbetterleaves",
-			"resourcepacks/nautilus3d",
-        	"resourcepacks/programmerartfix",
-		    "resourcepacks/roundtrees",
-			"resourcepacks/simplegrassflowers",
-			"resourcepacks/uniquedark",
-			"resourcepacks/uniqueenchantedbooks",
-			"resourcepacks/vanillaevolved",
-			"resourcepacks/vanillaxbr",
-			"resourcepacks/xalienhancedvanilla"
-      ]
-    },
     {
       "group": "Essentials",
       "pages": [
