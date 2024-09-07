@@ -1,95 +1,239 @@
 {
-	"$schema": "https://mintlify.com/schema.json",
-	"name": "DinoHub",
-	"logo": {
-		"dark": "/logo/logo.svg",
-		"light": "/logo/u-light.svg"
-	},
-	"favicon": "/logo/logo.svg",
-	"colors": {
-		"primary": "#25C2A0",
-		"light": "#25C2A0",
-		"dark": "#25C2A0",
-		"background": {
-			"dark": "#0c0c0c",
-			"light": "#fcfcfc"
-		},
-		"anchors": {
-			"from": "#25C2A0",
-			"to": "#16a889"
-		}
-	},
-	"modeToggle": {
-		"default": "dark",
-		"isHidden": true
-	},
-	"background": {
-		"style": "grid"
-	},
-	"anchors": [
-		{
-			"name": "Discord Community",
-			"icon": "discord",
-			"url": "https://discord.gg/fops"
-		}
-	],
-	"feedback": {
-		"suggestEdit": true,
-		"raiseIssue": true,
-		"feedback.thumbsRating": true
-	},
-	"search": {
-		"prompt": "Search"
-	},
-	"tabs": [
-    {
-        "name": "Resource Packs",
-        "url": "resource-packs"
-    },
-    {
-        "name": "Content",
-        "url": "content"
-    },
-    {
-        "name": "Blog",
-        "url": "https://your-website.com/blog"
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "DinoHub",
+  "logo": {
+    "light": "/logo/logo.svg",
+    "dark": "/logo/logo.svg"
+  },
+  "layout": "sidenav",
+  "favicon": "/favicon.svg",
+  "sidebar": {
+    "items": "container"
+  },
+  "colors": {
+    "primary": "#25C2A0",
+    "light": "#25C2A0",
+    "dark": "#25C2A0"
+  },
+  "api": {
+    "auth": {
+      "method": "bearer"
     }
-],
-	"primaryTab": {
-    "name": "Home"
-},
-	"layout": "topnav",
-	"sidebar": {
-		"items": "container"
-	},
-	"api": {
-		"auth": {
-			"method": "bearer"
-		}
-	},
-	"navigation": [
-		{
-			"group": "",
-			"pages": [
-				"introduction",
-				"roadmap"
-			]
-		},
+  },
+  "background": {
+    "style": "grid"
+  },
+  "topbarLinks": [
     {
-      "group": "Essentials",
+      "name": "Community",
+      "url": "https://mintlify.com/community"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://mintlify.com/start",
+    "style": "roundedRectangle",
+    "arrow": false
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true
+  },
+  "tabs": [
+    {
+      "name": "Resource Packs",
+      "url": "resourcepacks"
+    },
+    {
+      "name": "Integrations",
+      "url": "integrations"
+    },
+    {
+      "name": "Advanced",
+      "url": "advanced"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "quickstart",
+        "development",
+        "settings/global",
+        "settings/navigation"
+      ]
+    },
+    {
+      "group": "Writing Content",
+      "pages": [
+        "page",
+        "text",
+        "image-embeds",
+        "list-table",
+        "code",
+        "reusable-snippets"
+      ]
+    },
+    {
+      "group": "API References",
+      "pages": [
+        "api-playground/overview",
+        {
+          "group": "Using OpenAPI",
+          "icon": "brackets-curly",
+          "pages": [
+            "api-playground/openapi/setup",
+            "api-playground/openapi/writing-openapi",
+            "api-playground/openapi/advanced-features"
+          ]
+        },
+        {
+          "group": "Using MDX",
+          "icon": "markdown",
+          "pages": [
+            "api-playground/mdx/configuration",
+            "api-playground/mdx/authentication"
+          ]
+        },
+        "api-playground/troubleshooting"
+      ]
+    },
+    {
+      "group": "Configurations",
+      "pages": [
+        "settings/custom-domain",
+        "settings/seo",
+        "settings/broken-links",
+        "settings/versioning",
+        "settings/add-members",
+        "settings/github",
+        "settings/gitlab",
+        "settings/authentication"
+      ]
+    },
+    {
+      "group": "Analytics",
+      "pages": [
+        "integrations/analytics/overview",
+        "integrations/analytics/amplitude",
+        "integrations/analytics/clearbit",
+        "integrations/analytics/fathom",
+        "integrations/analytics/google-analytics",
+        "integrations/analytics/google-tag-manager",
+        "integrations/analytics/heap",
+        "integrations/analytics/hotjar",
+        "integrations/analytics/koala",
+        "integrations/analytics/logrocket",
+        "integrations/analytics/mixpanel",
+        "integrations/analytics/pirsch",
+        "integrations/analytics/plausible",
+        "integrations/analytics/posthog"
+      ]
+    },
+    {
+      "group": "SDKs",
+      "pages": [
+        "integrations/sdks/speakeasy",
+        "integrations/sdks/stainless"
+      ]
+    },
+    {
+      "group": "Support",
+      "pages": [
+        "integrations/support/overview",
+        "integrations/support/intercom",
+        "integrations/support/front"
+      ]
+    },
+    {
+      "group": "Privacy",
+      "pages": [
+        "integrations/privacy/overview",
+        "integrations/privacy/osano"
+      ]
+    },
+    {
+      "group": "Custom Scripts",
+      "pages": [
+        "advanced/custom/css",
+        "advanced/custom/js"
+      ]
+    },
+    {
+      "group": "Custom Subpaths",
+      "pages": [
+        "advanced/subpath/cloudflare",
+        "advanced/subpath/route53-cloudfront"
+      ]
+    },
+    {
+      "group": "Extensions",
+      "pages": [
+        "advanced/widget/chat"
+      ]
+    },
+    {
+      "group": "REST API",
+      "pages": [
+        "advanced/rest-api/overview",
+        "advanced/rest-api/trigger-update",
+        "advanced/rest-api/update-status"
+      ]
+    },
+    {
+      "group": "User Auth",
+      "pages": [
+        "advanced/user-auth/overview",
+        {
+          "group": "Authenticating",
+          "pages": [
+            "advanced/user-auth/choosing-an-auth-method",
+            "advanced/user-auth/shared-session",
+            "advanced/user-auth/jwt"
+          ]
+        },
+        "advanced/user-auth/sending-data"
+      ]
+    },
+    {
+      "group": "Components",
+      "pages": [
+        "content/components/accordions",
+        "content/components/accordion-groups",
+        "content/components/callouts",
+        "content/components/cards",
+        "content/components/card-groups",
+        "content/components/code",
+        "content/components/code-groups",
+        "content/components/frames",
+        "content/components/icons",
+        "content/components/mermaid-diagrams",
+        "content/components/steps",
+        "content/components/tabs",
+        "content/components/tooltips"
+      ]
+    },
+    {
+      "group": "API Components",
+      "pages": [
+        "content/components/params",
+        "content/components/responses",
+        "content/components/expandables",
+        "content/components/sticky-examples"
       ]
     }
-	],
-	"footerSocials": {
-		"x": "https://twitter.com/UnboundClient",
-		"github": "https://github.com/unbound-mod",
-		"discord": "https://discord.gg/fops"
-	}
+  ],
+  "footerSocials": {
+    "github": "https://github.com/mintlify",
+    "slack": "https://mintlify.com/community",
+    "x": "https://x.com/mintlify"
+  },
+  "analytics": {
+    "ga4": {
+      "measurementId": "G-RCYWHL7EQ7"
+    },
+    "koala": {
+      "publicApiKey": "pk_76a6caa274e800f3ceff0b2bc6b9b9d82ab8"
+    }
+  }
 }
