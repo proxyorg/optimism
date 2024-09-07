@@ -62,6 +62,7 @@
       "group": "Resource Packs",
       "pages": [
             "resourcepacks/3dcropsrevamped",
+			"resourcepacks/3ddefault",
 			"resourcepacks/alacrity",
 			"resourcepacks/barebones",
 			"resourcepacks/betterflameparticles",
