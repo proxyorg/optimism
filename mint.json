@@ -43,14 +43,13 @@
 	},
 	"tabs": [
 		{
-			"name": "Mods",
-			"url": "mods"
-		},
-		{
 			"name": "Resource Packs",
 			"url": "resourcepacks"
 		}
 	],
+	"primaryTab": {
+    "name": "Home"
+},
 	"layout": "topnav",
 	"sidebar": {
 		"items": "container"
