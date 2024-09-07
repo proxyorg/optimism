@@ -44,11 +44,7 @@
 	"tabs": [
     {
         "name": "Resource Packs",
-        "url": "resource-packs"
-    },
-    {
-        "name": "Content",
-        "url": "content"
+        "url": "resourcepacks"
     },
     {
         "name": "Blog",
