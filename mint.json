@@ -1,15 +1,15 @@
 {
 	"$schema": "https://mintlify.com/schema.json",
-	"name": "Unbound",
+	"name": "Dino",
 	"logo": {
-		"dark": "/logo/u-dark.svg",
+		"dark": "/logo/logo.svg",
 		"light": "/logo/u-light.svg"
 	},
-	"favicon": "/logo/u-dark.svg",
+	"favicon": "/logo/logo.svg",
 	"colors": {
-		"primary": "#c74050",
-		"light": "#c74050",
-		"dark": "#c74050",
+		"primary": "#20232A",
+		"light": "#20232A",
+		"dark": "#20232A",
 		"background": {
 			"dark": "#0c0c0c",
 			"light": "#fcfcfc"
