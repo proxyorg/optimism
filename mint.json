@@ -97,6 +97,12 @@
 				  "resourcepacks/xalienhancedvanilla"
 			]
 		  },
+		  {
+			"group": "",
+			"pages": [
+			  "introduction"
+			]
+		  },
     {
       "group": "Essentials",
       "pages": [
