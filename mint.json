@@ -71,6 +71,7 @@
 			"group": "Resource Packs",
 			"pages": [
 				  "resourcepacks/3ddefault",
+				  "resourcepacks/3dladders",
 				  "resourcepacks/alacrity",
 				  "resourcepacks/barebones",
 				  "resourcepacks/betterflameparticles",
