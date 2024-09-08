@@ -1,5 +1,5 @@
 {
-    "name": "DinoHub",
+    "name": "DinoCore",
     "version": "1.0.0",
     "scripts": {
       "build": "mintlify build"
