@@ -1,6 +1,5 @@
 {
-    "builds": [
-      { "src": ".", "use": "@vercel/static" }
-    ],
-    "outputDirectory": "unbound"
-  }
+        "builds": [
+          { "src": "unbound/", "use": "@vercel/static" }
+        ]
+      }
