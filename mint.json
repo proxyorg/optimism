@@ -3,7 +3,8 @@
 	"name": "DinoCore",
 	"logo": {
 		"dark": "/logo/logo.svg",
-		"light": "/logo/u-light.svg"
+		"light": "/logo/u-light.svg",
+		"width": "32px"
 	},
 	"favicon": "/logo/logo.svg",
 	"colors": {
@@ -107,9 +108,7 @@
 				  "resourcepacks/vanillaexperienceplus",
 				  "resourcepacks/vanillaxbr",
 				  "resourcepacks/xalienhancedvanilla",
-				  "resourcepacks/xalispotion",
-				  "resourcepacks/test",
-				  "resourcepacks/anothertest"
+				  "resourcepacks/xalispotion"
 			]
 		  }
 	],
