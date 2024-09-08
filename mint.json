@@ -35,8 +35,7 @@
 	],
 	"feedback": {
 		"suggestEdit": true,
-		"raiseIssue": true,
-		"feedback.thumbsRating": true
+		"raiseIssue": true
 	},
 	"search": {
 		"prompt": "Search"
@@ -70,7 +69,6 @@
 		{
 			"group": "Resource Packs",
 			"pages": [
-				  "resourcepacks/3dcropsrevamped",
 				  "resourcepacks/3ddefault",
 				  "resourcepacks/alacrity",
 				  "resourcepacks/barebones",
