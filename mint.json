@@ -61,6 +61,13 @@
 	},
 	"navigation": [
 		{
+			"group": "Home",
+			"pages": [
+			  "introduction",
+			  "installresourcepacks"
+			]
+		  },
+		{
 			"group": "Resource Packs",
 			"pages": [
 				  "resourcepacks/3dcropsrevamped",
@@ -96,13 +103,6 @@
 				  "resourcepacks/vanillaevolved",
 				  "resourcepacks/vanillaxbr",
 				  "resourcepacks/xalienhancedvanilla"
-			]
-		  },
-		  {
-			"group": "Home",
-			"pages": [
-			  "introduction",
-			  "installresourcepacks"
 			]
 		  }
 	],
