@@ -1,6 +1,6 @@
 {
 	"$schema": "https://mintlify.com/schema.json",
-	"name": "DinoHub",
+	"name": "DinoCore",
 	"logo": {
 		"dark": "/logo/logo.svg",
 		"light": "/logo/u-light.svg"
