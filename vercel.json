@@ -1,5 +1,5 @@
 {
         "builds": [
-          { "src": "unbound/", "use": "@vercel/static" }
+          { "src": "unbound/resourcepacks", "use": "@vercel/static" }
         ]
       }
