@@ -2,7 +2,8 @@
     "name": "DinoCore",
     "version": "1.0.0",
     "scripts": {
-      "build": "mintlify build"
+      "build": "mintlify build",
+      "start": "mintlify dev"
     },
     "dependencies": {
       "mintlify": "^3.0.0"
