@@ -2,11 +2,11 @@
     "name": "mintlify-docs",
     "version": "1.0.0",
     "scripts": {
-      "dev": "mintlify dev",
-      "build": "mintlify build",
-      "start": "mintlify start"
+        "dev": "mintlify dev",
+        "build": "mintlify build",
+        "start": "mintlify start"
     },
     "dependencies": {
-      "mintlify": "3.0.0"  // Replace with the correct version of Mintlify
+        "mintlify": "3.0.0"
     }
-  }
+}
