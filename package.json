@@ -1,10 +1,12 @@
 {
-    "name": "dinocore",
-    "private": true,
+    "name": "mintlify-docs",
+    "version": "1.0.0",
     "scripts": {
-      "build": "mintlify build"
+      "dev": "mintlify dev",
+      "build": "mintlify build",
+      "start": "mintlify start"
     },
     "dependencies": {
-      "mintlify": "latest"
+      "mintlify": "3.0.0"  // Replace with the correct version of Mintlify
     }
   }
