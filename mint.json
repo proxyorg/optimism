@@ -63,8 +63,8 @@
 		{
 			"group": "Home",
 			"pages": [
-			  "introduction",
-			  "installresourcepacks"
+			  "important/introduction",
+			  "important/installresourcepacks"
 			]
 		  },
 		{
