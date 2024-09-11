@@ -71,6 +71,7 @@
 		{
 			"group": "Resource Packs",
 			"pages": [
+				  "resourcepacks/Discover",
 				  "resourcepacks/3ddefault",
 				  "resourcepacks/3dladders",
 				  "resourcepacks/alacrity",
