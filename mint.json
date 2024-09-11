@@ -64,7 +64,8 @@
 			"group": "Home",
 			"pages": [
 			  "important/introduction",
-			  "important/installresourcepacks"
+			  "important/installresourcepacks",
+			  "resourcepacks/test"
 			]
 		  },
 		{
@@ -103,6 +104,7 @@
 				  "resourcepacks/reimaginedgui",
 				  "resourcepacks/roundtrees",
 				  "resourcepacks/simplegrassflowers",
+				  "resourcepacks/simply3d",
 				  "resourcepacks/uniquedark",
 				  "resourcepacks/uniqueenchantedbooks",
 				  "resourcepacks/vanillaevolved",
