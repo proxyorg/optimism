@@ -1,23 +1,22 @@
 {
 	"$schema": "https://mintlify.com/schema.json",
-	"name": "DinoCore",
+	"name": "Optimism",
 	"logo": {
-		"dark": "/logo/logo.svg",
-		"light": "/logo/u-light.svg",
-		"width": "32px"
+		"dark": "/logo/optimism-logo.svg",
+		"light": "/logo/optimism-logo.svg"
 	},
-	"favicon": "/logo/logo.svg",
+	"favicon": "/logo/optimism-logo.svg",
 	"colors": {
-		"primary": "#25C2A0",
-		"light": "#25C2A0",
-		"dark": "#25C2A0",
+		"primary": "#B80018",
+		"light": "#B80018",
+		"dark": "#B80018",
 		"background": {
-			"dark": "#0c0c0c",
-			"light": "#fcfcfc"
+			"dark": "#111111",
+			"light": "#ffffff"
 		},
 		"anchors": {
-			"from": "#25C2A0",
-			"to": "#16a889"
+			"from": "#B80018",
+			"to": "#700013"
 		}
 	},
 	"modeToggle": {
