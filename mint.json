@@ -67,14 +67,12 @@
 			"group": "Home",
 			"pages": [
 			  "important/introduction",
-			  "important/installresourcepacks",
-			  "resourcepacks/test"
+			  "important/installresourcepacks"
 			]
 		  },
 		{
 			"group": "Resource Packs",
 			"pages": [
-				  "resourcepacks/Discover",
 				  "resourcepacks/3ddefault",
 				  "resourcepacks/3dladders",
 				  "resourcepacks/alacrity",
