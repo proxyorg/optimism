@@ -2,10 +2,10 @@
 	"$schema": "https://mintlify.com/schema.json",
 	"name": "Optimism",
 	"logo": {
-		"dark": "/logo/optimism-logo.svg",
-		"light": "/logo/optimism-logo.svg"
+		"dark": "/logo/v1.svg",
+		"light": "/logo/v1.svg"
 	},
-	"favicon": "/logo/optimism-logo.svg",
+	"favicon": "/logo/v1.svg",
 	"colors": {
 		"primary": "#B80018",
 		"light": "#B80018",
