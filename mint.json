@@ -42,8 +42,7 @@
 	},
 	"topbarCtaButton": {
 		"type": "github",
-		"url": "https://github.com/kn0xwya/unbound",
-		"style": "roundedRectangle"
+		"url": "https://github.com/kn0xwya/unbound"
 	  },
 	"tabs": [
   {
