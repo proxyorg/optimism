@@ -21,7 +21,7 @@
 	},
 	"modeToggle": {
 		"default": "dark",
-		"isHidden": true
+		"isHidden": false
 	},
 	"background": {
 		"style": "grid"
@@ -44,6 +44,11 @@
   {
     "name": "Resource Packs",
     "url": "resourcepacks"
+  },
+  "topbarCtaButton": {
+	"type": "github",
+	"url": "https://github.com/kn0xwya/unbound",
+	"style": "rounded"
   }
 ],
 	"primaryTab": {
