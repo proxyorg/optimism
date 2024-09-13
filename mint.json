@@ -40,15 +40,15 @@
 	"search": {
 		"prompt": "Search"
 	},
+	"topbarCtaButton": {
+		"type": "github",
+		"url": "https://github.com/kn0xwya/unbound",
+		"style": "rounded"
+	  },
 	"tabs": [
   {
     "name": "Resource Packs",
     "url": "resourcepacks"
-  },
-  "topbarCtaButton": {
-	"type": "github",
-	"url": "https://github.com/kn0xwya/unbound",
-	"style": "rounded"
   }
 ],
 	"primaryTab": {
