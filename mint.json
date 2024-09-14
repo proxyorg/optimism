@@ -70,6 +70,7 @@
 		{
 			"group": "Resource Packs",
 			"pages": [
+				  "resourcepacks/discover",
 				  "resourcepacks/3ddefault",
 				  "resourcepacks/3dladders",
 				  "resourcepacks/alacrity",
