@@ -2,29 +2,22 @@
 	"$schema": "https://mintlify.com/schema.json",
 	"name": "Optimism",
 	"logo": {
-		"dark": "/logo/v1.svg",
-		"light": "/logo/v1.svg"
+		"dark": "/logo/dark.svg",
+		"light": "/logo/light.svg"
 	},
-	"favicon": "/logo/v1.svg",
+	"favicon": "/logo/dark.svg",
 	"colors": {
-		"primary": "#B80018",
-		"light": "#B80018",
-		"dark": "#B80018",
+		"primary": "#09090b",
+		"light": "#FAFAFA",
+		"dark": "#09090b",
 		"background": {
 			"dark": "#111111",
 			"light": "#ffffff"
-		},
-		"anchors": {
-			"from": "#B80018",
-			"to": "#700013"
 		}
 	},
 	"modeToggle": {
 		"default": "dark",
 		"isHidden": false
-	},
-	"background": {
-		"style": "windows"
 	},
 	"anchors": [
 		{
@@ -48,6 +41,10 @@
   {
     "name": "Resource Packs",
     "url": "resourcepacks"
+  },
+  {
+	"name": "Mods",
+	"url": "mods"
   }
 ],
 	"primaryTab": {
@@ -116,6 +113,12 @@
 				  "resourcepacks/vanillaxbr",
 				  "resourcepacks/xalienhancedvanilla",
 				  "resourcepacks/xalispotion"
+			]
+		  },
+		  {
+			"group": "Mods",
+			"pages": [
+				"mods/sodium"
 			]
 		  }
 	],
