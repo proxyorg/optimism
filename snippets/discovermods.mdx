@@ -1,0 +1,23 @@
+export const DiscoverM = ({ children = 'Discover Mods' }) => {
+  return (
+    <a className="group" href="/Mods/discover">
+      <button className="flex items-center space-x-1 font-medium px-4 py-1 bg-primary-dark rounded-xl group-hover:opacity-[0.9] text-white group-hover:opacity-[0.9]">
+        <span>{children}</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width={20}
+          height={20}
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth={2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="w-3 h-3"
+        >
+          <path d="m9 18 6-6-6-6" />
+        </svg>
+      </button>
+    </a>
+  );
+};
