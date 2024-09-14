@@ -64,7 +64,8 @@
 			"group": "Home",
 			"pages": [
 			  "important/introduction",
-			  "important/installresourcepacks"
+			  "important/installresourcepacks",
+			  "important/installmods"
 			]
 		  },
 		{
