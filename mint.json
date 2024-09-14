@@ -24,7 +24,7 @@
 		"isHidden": false
 	},
 	"background": {
-		"style": "grid"
+		"style": "windows"
 	},
 	"anchors": [
 		{
@@ -53,9 +53,9 @@
 	"primaryTab": {
     "name": "Home"
 },
-	"layout": "topnav",
+	"layout": "sidenav",
 	"sidebar": {
-		"items": "container"
+		"items": "card"
 	},
 	"api": {
 		"auth": {
