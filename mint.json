@@ -41,11 +41,13 @@
 	"tabs": [
   {
     "name": "Resource Packs",
-    "url": "resourcepacks"
+    "url": "resourcepacks",
+	"isDefaultHidden": true
   },
   {
 	"name": "Mods",
-	"url": "mods"
+	"url": "mods",
+	"isDefaultHidden": true
   }
 ],
 	"primaryTab": {
