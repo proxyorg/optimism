@@ -2,8 +2,8 @@
 	"$schema": "https://mintlify.com/schema.json",
 	"name": "Optimism",
 	"logo": {
-		"dark": "/logo/mcearth.png",
-		"light": "/logo/mcearth.png"
+		"dark": "/logo/256x.svg",
+		"light": "/logo/256x.svg"
 	},
 	"favicon": "/logo/dark.svg",
 	"colors": {
@@ -51,7 +51,8 @@
   }
 ],
 	"primaryTab": {
-    "name": "Home"
+    "name": "Home",
+	"isDefaultHidden": true
 },
 	"layout": "sidenav",
 	"sidebar": {
