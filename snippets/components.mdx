@@ -1,9 +1,9 @@
 export const HeroCard = ({ img, title, description, href }) => {
   return (
-    <a className="block border rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer hover:border-primary dark:hover:border-primary-light" href={href}>
-      <img src={img} className="w-full rounded-t-lg" />
-      <div className="p-4">
-        <h1 className="font-semibold text-gray-900 dark:text-white">{title}</h1>
+    <a className="border-b pb-8 cursor-pointer border-gray-500 dark:border-gray-800 hover:!border-primary dark:hover:!border-primary-light rounded-lg overflow-hidden" href={href}>
+      <img src={img} className="rounded-t-lg" />
+      <div className="px-4 py-3">
+        <h1 className="mt-4 font-semibold text-gray-900 dark:text-white">{title}</h1>
         <h2 className="mt-1 text-gray-600 dark:text-gray-400 text-sm leading-6">{description}</h2>
       </div>
     </a>
