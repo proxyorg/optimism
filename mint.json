@@ -7,9 +7,9 @@
 	},
 	"favicon": "/logo/mcearth.png",
 	"colors": {
-		"primary": "#09090b",
-		"light": "#FAFAFA",
-		"dark": "#09090b",
+		"primary": "#415FF2",
+		"light": "#415FF2",
+		"dark": "#415FF2",
 		"background": {
 			"dark": "#111111",
 			"light": "#ffffff"
@@ -36,6 +36,9 @@
 	"topbarCtaButton": {
 		"type": "github",
 		"url": "https://github.com/kn0xwya/unbound"
+	  },
+	  "topbar": {
+		"style": "gradient"
 	  },
 	"tabs": [
   {
