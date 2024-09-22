@@ -1,20 +1,20 @@
 export const HeroCard = ({ img, title, description, href, tag }) => {
   return (
     <a
-      className="block overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer border border-gray-200 dark:border-gray-700 rounded-lg"
+      className="block overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer border border-gray-200 dark:border-gray-700 rounded-lg hover:transform hover:scale-105"
       href={href}
     >
       <div className="relative">
         <img src={img} className="w-full h-48 object-cover" alt={title} />
-        {tag && (
-  <span className="absolute top-2 left-2 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 text-xs font-bold px-2 py-1 rounded-md text-[10px]">
-    {tag}
-  </span>
-)}
       </div>
       <div className="p-4">
         <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{title}</h2>
-        <p className="text-gray-600 dark:text-gray-400">{description}</p>
+        <p className="text-gray-600 dark:text-gray-400 mb-2">{description}</p>
+        {tag && (
+          <span className="inline-block bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 text-xs font-bold px-2 py-1 rounded-md text-[10px]">
+            {tag}
+          </span>
+        )}
       </div>
     </a>
   )
