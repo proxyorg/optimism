@@ -1,0 +1,21 @@
+export const HeroCard = ({ img, title, description, href, tag }) => {
+  return (
+    <a
+      className="block overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
+      href={href}
+    >
+      <div className="relative">
+        <img src={img} className="w-full h-48 object-cover" alt={title} />
+        {tag && (
+          <span className="absolute top-2 left-2 bg-white text-gray-800 text-xs font-bold px-2 py-1">
+            {tag}
+          </span>
+        )}
+      </div>
+      <div className="p-4">
+        <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{title}</h2>
+        <p className="text-gray-600 dark:text-gray-400">{description}</p>
+      </div>
+    </a>
+  )
+}
