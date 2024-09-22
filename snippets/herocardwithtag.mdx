@@ -7,10 +7,10 @@ export const HeroCard = ({ img, title, description, href, tag }) => {
       <div className="relative">
         <img src={img} className="w-full h-48 object-cover" alt={title} />
         {tag && (
-  <span className="absolute top-2 left-2 bg-white text-gray-800 text-xs font-bold px-2 py-1 rounded-md text-[10px]">
-    {tag}
-  </span>
-)}
+          <span className="absolute top-2 left-2 bg-white text-gray-800 text-[10px] font-semibold px-1.5 py-0.5 rounded border border-gray-300">
+            {tag}
+          </span>
+        )}
       </div>
       <div className="p-4">
         <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{title}</h2>
