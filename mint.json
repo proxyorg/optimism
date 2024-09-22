@@ -2,10 +2,10 @@
 	"$schema": "https://mintlify.com/schema.json",
 	"name": "Optimism",
 	"logo": {
-		"dark": "/logo/256x.svg",
-		"light": "/logo/256x.svg"
+		"dark": "/logo/mcearth.png",
+		"light": "/logo/mcearth.png"
 	},
-	"favicon": "/logo/dark.svg",
+	"favicon": "/logo/mcearth.png",
 	"colors": {
 		"primary": "#09090b",
 		"light": "#FAFAFA",
@@ -15,7 +15,6 @@
 			"light": "#ffffff"
 		}
 	},
-	"css": ".logo { width: 200px; height: auto; }",
 	"modeToggle": {
 		"default": "dark",
 		"isHidden": false
@@ -42,17 +41,17 @@
   {
     "name": "Resource Packs",
     "url": "resourcepacks",
-	"isDefaultHidden": true
+	"isDefaultHidden": false
   },
   {
 	"name": "Mods",
 	"url": "mods",
-	"isDefaultHidden": true
+	"isDefaultHidden": false
   }
 ],
 	"primaryTab": {
     "name": "Home",
-	"isDefaultHidden": true
+	"isDefaultHidden": false
 },
 	"layout": "sidenav",
 	"sidebar": {
@@ -67,15 +66,15 @@
 		{
 			"group": "Home",
 			"pages": [
-			  "important/introduction",
-			  "important/installresourcepacks",
-			  "important/installmods"
+			  "introduction",
+			  "installresourcepacks",
+			  "installmods",
+			  "discover"
 			]
 		  },
 		{
 			"group": "Resource Packs",
 			"pages": [
-				  "resourcepacks/discover",
 				  "resourcepacks/3ddefault",
 				  "resourcepacks/3dladders",
 				  "resourcepacks/alacrity",
